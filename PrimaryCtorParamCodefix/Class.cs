@@ -4,5 +4,6 @@ using System;
 
 class Class()
 {
-    public String Property { get; }
+    public String ReadOnlyProperty { get; }
+    public String ReadWriteProperty { get; set; }
 }
